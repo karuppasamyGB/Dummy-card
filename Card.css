@@ -1,0 +1,64 @@
+h2 {
+    text-align: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.biryani {
+    width: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.biryani:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.sukka {
+    width: 300px;
+    height: 80%;
+    border-radius: 25px;
+    margin: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.sukka:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.kulambu {
+    width: 300px;
+    height: 80%;
+    border-radius: 25px;
+    margin: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.kulambu:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.order-btn {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius:5px;
+    background-color:#f70b0b;
+    color:#ffffff;
+    border-color: #ffffff;
+}
